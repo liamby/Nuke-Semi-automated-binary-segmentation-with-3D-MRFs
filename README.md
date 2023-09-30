@@ -1,2 +1,5 @@
 # Nuke-Semi-automated-binary-segmentation-with-3D-MRFs
- This repo solves foreground extraction (matting) using MAP estimation with Markov random fields in Nuke.
+This document presents a solution for the problem of extracting foreground elements from a background image, known as matting. The approach taken involves applying Bayes' theorem, specifically Maximum a posteriori (MAP) estimation, which uses a likelihood function based on maximum-likelihood criterion and a prior probability function based on Markov random field to predict foreground and background pixels at the same time. The document compares the performance of 2D and 3D Markov Random Fields (MRFs) with and without motion compensation, and concludes that none of the mattes implemented here would be suitable for use in industry. The approach allows for the removal of unwanted objects from a scene, compositing of images, and creation of special effects.
+![Motion picture](https://github.com/liamby/Nuke-Semi-automated-binary-segmentation-with-3D-MRFs/assets/60388361/799f0968-d749-41c6-863e-3c1b17dc0ed2)
+
+[Liam_Byrne_18326579_5C1_Report.pdf](https://github.com/liamby/Nuke-Semi-automated-binary-segmentation-with-3D-MRFs/files/12774951/Liam_Byrne_18326579_5C1_Report.pdf)
